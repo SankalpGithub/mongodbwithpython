@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from con_mongodb import con
 from bson.json_util import dumps
 from bson.objectid import ObjectId
@@ -9,7 +9,7 @@ myCol = myClient['students']
 #home_page
 @app.route('/')
 def home():
-    return 'Hello World' 
+    return render_template('index.html')
 
 #error function
 @app.errorhandler(404)
