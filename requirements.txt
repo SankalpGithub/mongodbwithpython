@@ -20,5 +20,5 @@ pypiwin32==223
 PythonTurtle==0.3.2
 rich==13.3.5
 virtualenv==20.23.1
-Werkzeug==2.3.7
+Werkzeug==2.2.3
 yeelight==0.7.10
