@@ -19,3 +19,4 @@ pymongo==4.5.0
 rich==13.3.5
 virtualenv==20.23.1
 Werkzeug==2.2.3
+gunicorn==21.2.0

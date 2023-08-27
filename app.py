@@ -74,5 +74,5 @@ def updateuser(id):
         return not_found()
         
 
-
-app.run(debug=True)       
+if __name__ == "__main__":
+    app.run()       
