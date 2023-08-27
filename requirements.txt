@@ -18,7 +18,6 @@ Pygments==2.15.1
 pymongo==4.5.0
 pypiwin32==223
 PythonTurtle==0.3.2
-pywin32==306
 rich==13.3.5
 virtualenv==20.23.1
 Werkzeug==2.3.7
